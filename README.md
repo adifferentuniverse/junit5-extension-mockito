@@ -1,20 +1,11 @@
-# JUnit 5 Samples
+A simple JUnit 5 extension to integrate Mockito into JUnit 5 tests somewhat simpler.
 
-Welcome to _JUnit 5 Samples_, a collection of sample applications
-using JUnit 5.
+The `MockitoExtension` showcases the `TestInstancePostProcessor` and `ParameterResolver`
+extension APIs of JUnit 5 by providing dependency injection support at the field level
+and at the method parameter level via via Mockito 2.x's `@Mock` annotation.
 
-## Build System Samples
+See also:
 
-The following sample projects demonstrate how to set up a project
-that uses JUnit 5 for various build systems.
-
-- [Gradle](https://github.com/junit-team/junit5-samples/tree/master/junit5-gradle-consumer)
-- [Maven](https://github.com/junit-team/junit5-samples/tree/master/junit5-maven-consumer)
-
-## Sample Extensions
-
-- [Mockito](https://github.com/junit-team/junit5-samples/tree/master/junit5-mockito-extension)
-
-## CI Builds
-
-CI builds for all sample projects are available [here](https://junit.ci.cloudbees.com/job/JUnit%205%20Samples/).
+- [Mockito issue #390](https://github.com/mockito/mockito/issues/390)
+- [Mockito issue #438](https://github.com/mockito/mockito/issues/438)
+- [Mockito issue #445](https://github.com/mockito/mockito/issues/445)
